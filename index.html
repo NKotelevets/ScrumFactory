@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>javascript Task</title>
+</head>
+<body>
+	<h1 id="task_5"></h1>
+	<script type="text/javascript">
+			// 1 task //
+
+			var MyObject = { name: "Dima", age: 25, hair: "Brown" };
+			console.log(MyObject);
+
+			//2 task//
+
+			var ObjectName =MyObject.name
+			console.log(ObjectName);
+
+			//3 task//
+
+			var MyArray = [];
+			for (var i = 1; i <= 5; i++) {
+				MyArray.push(i);
+			}
+			console.log(MyArray);
+
+			//4 task//
+
+			for (i = 0; i < MyArray.length; i++) { 
+				console.log(MyArray[i]); 
+			}
+
+			//5 task//
+			var num = 1;
+			for ( ; num < 100; num++ ) {
+				if ( num % 5 === 0 && num % 3 === 0 ){
+					document.write( "FizzBuzz <br />" )
+				} else {
+					if ( num%5 === 0 ){
+						document.write(" Buzz <br />" );
+					} else {
+						if ( num%3 === 0 ){
+							document.write(" Fizz <br/ >" );
+						} else {
+							document.write( num, "<br/ >" );
+						}
+					}
+				}
+			}
+
+		</script>
+	</body>
+	</html>
